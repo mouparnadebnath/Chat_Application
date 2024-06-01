@@ -11,7 +11,7 @@ const useGetConversation = () => {
 			try {
         const jwtToken = localStorage.getItem("token")
 		console.log("fetching data")
-				const res = await axios.get("http://localhost:5000/api/users", { 
+				const res = await axios.get("https://chat-application-kqbt.onrender.com/api/users", { 
           headers: {
             authorization: `Bearer ${JSON.parse(jwtToken)}`,
             'Content-Type':'application/json' 
