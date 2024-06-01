@@ -1,5 +1,5 @@
 import axios from "axios"
-const URL="http://localhost:5000/api/auth"
+const URL="https://chat-application-kqbt.onrender.com/api/auth"
 export const authenticateLoginUser=async(data)=>{
 try {
    const res=await axios.post(`${URL}/login`,data,{
