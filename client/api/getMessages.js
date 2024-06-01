@@ -12,7 +12,7 @@ const useGetMessages=()=>{
             try {
                 const token=localStorage.getItem("token")
                 console.log(token)
-                const res=await fetch(`http://localhost:5000/api/message/${selectedConversation._id}`,{
+                const res=await fetch(`https://chat-application-kqbt.onrender.com/api/message/${selectedConversation._id}`,{
                     method:"GET",
                     headers:{
                         "Content-Type":"application/json",
