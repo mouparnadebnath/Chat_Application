@@ -11,7 +11,7 @@ const useSendMessage = () => {
     try {
       const token = localStorage.getItem("token");
       const res = await fetch(
-        `http://localhost:5000/api/message/send/${selectedConversation._id}`,
+        `https://chat-application-kqbt.onrender.com/api/message/send/${selectedConversation._id}`,
         {
           method: "POST",
           headers: {
