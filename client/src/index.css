@@ -1,5 +1,5 @@
 :root {
-  background: url('C:\WEB DEVELOPMENT\Chat_Application\client\src\assets\backgroundImage.jpg') no-repeat center center fixed;
+  background: url('./assets/backgroundImage.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
