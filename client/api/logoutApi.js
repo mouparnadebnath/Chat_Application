@@ -1,5 +1,5 @@
 import axios from "axios"
-const url='http://localhost:5000/api/auth'
+const url='https://chat-application-kqbt.onrender.com/api/auth'
 export const userLogout=async(data)=>{
 try {
     const response=await axios.post(`${url}/logout`,data)
