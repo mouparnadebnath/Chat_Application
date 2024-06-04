@@ -16,7 +16,7 @@ export default function Messages() {
   return (
     <div className='xl:w-11/12 lg:w-9/12 md:w-7/12 sm:w-5/12 p-10 bg-green-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30' >
 <Header  />
-<div className=" xl:h-5/6 lg:h-5/6 md:h-5/6 sm:h-3/5 overflow-y-auto  text-white">
+<div className=" overflow-y-auto overflow-x-hidden text-white" style={{height:"17rem"}}>
 
 {messages.length>0 ? messages.map((item)=>(
         <div key={item._id} ref={messageRef}>
